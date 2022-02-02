@@ -6,7 +6,7 @@ var el = document.getElementsByTagName("li");
 btn.onclick = function () {
   var txt = input.value;
   if (txt == "") {
-    alert("you must write something");
+    alert("Bir şey yazmalısın");
   } else {
     li = document.createElement("li");
     li.innerHTML = txt;
